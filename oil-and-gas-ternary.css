@@ -448,7 +448,7 @@
         z-index: 0;
     }
 
-    #bottom-row, #bottom-row1, #bottom-row2 {
+    #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 {
         position: relative;
         z-index: 1;
         margin-top: -5rem;
@@ -467,7 +467,7 @@
     #well-map{
         height: 35rem;
     }
-    #bottom-row, #bottom-row1, #bottom-row2 {
+    #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 {
         margin-top: -8rem;
     }
 
@@ -478,19 +478,19 @@
 
 /* Bottom row
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#bottom-row, #bottom-row1, #bottom-row2 {
+#bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 {
     padding: 5rem;
     background-color: #f2f5fa;
 }
 
-#bottom-row, #bottom-row1, #bottom-row2 .graph-title {
+#bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 .graph-title {
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
     margin-bottom: 2rem;
 }
 
 @media (max-width: 1000px) {
-    #bottom-row, #bottom-row1, #bottom-row2 {
+    #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 {
         display: flex;
         flex-direction: column;
         padding: 4rem 4vw;
@@ -507,16 +507,16 @@
 }
 
 @media (max-width: 550px) {
-    #bottom-row, #bottom-row1, #bottom-row2 .xtitle, #bottom-row, #bottom-row1, #bottom-row2 .ytitle {
+    #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 .xtitle, #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 .ytitle {
         font-size: 1.2rem !important
     }
 }
 
 @media (max-width: 550px) {
-    #bottom-row, #bottom-row1, #bottom-row2 .xtitle, #bottom-row, #bottom-row1, #bottom-row2 .ytitle {
+    #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 .xtitle, #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 .ytitle {
         font-size: 1rem !important
     }
-    #bottom-row, #bottom-row1, #bottom-row2 .legendtext{
+    #bottom-row, #bottom-row1, #bottom-row2, #bottom-row3 .legendtext{
         font-size: 0.8rem !important;
     }
 }
